@@ -15,6 +15,7 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
           <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
             <p>
+              hello, World!
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur accusantium, ex, saepe dolorum inventore aliquam
               maxime atque quidem temporibus asperiores corrupti. Incidunt ut
