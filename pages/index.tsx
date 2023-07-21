@@ -8,6 +8,8 @@ import About from "../src/components/About";
 import { motion } from "framer-motion";
 import Experience from "@/src/components/Experience";
 import Projects from "@/src/components/Projects";
+import Cards from "@/src/components/Cards";
+import Contact from "../src/components/Contact";
 
 const Home = () => {
   return (
@@ -34,6 +36,8 @@ const Home = () => {
             <About />
             <Experience/>
             <Projects/>
+            <Cards/>
+            <Contact/>
           </div>
           <motion.div
             initial={{ opacity: 0 }}

@@ -15,14 +15,13 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
           <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
             <p>
-              hello, World!
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consectetur accusantium, ex, saepe dolorum inventore aliquam
-              maxime atque quidem temporibus asperiores corrupti. Incidunt ut
-              hic deserunt eius aut magni debitis ab.
+              I recently graduated from MSU-IIT with a degree of BS Computer
+              Application major in Internet of Things. I completed several projects that showcased my ability,
+              This project strengthened my collaboration skills and deepened my
+              knowledge of the entire web development process.
             </p>
             <p>
-              Here are a few technologies I have been working with recently:
+            List of technologies that I have working with recently:
             </p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
               <li className="flex items-center gap-2">

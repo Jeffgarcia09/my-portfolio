@@ -34,10 +34,10 @@ const Middle = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-        molestiae dolores eius culpa saepe reprehenderit vero soluta consequatur
-        voluptate laudantium ab delectus dolorem sit aut aperiam placeat!
-        Dolorum, ipsam
+        I possess a unique skill set as a website developer that enables me to
+        make effective contributions to projects integrating various domains. I
+        am eager to utilize my knowledge and continue to grow professionally
+        within a dynamic and innovative industry. <br />
         <a href="" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More.
