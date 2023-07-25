@@ -16,7 +16,7 @@ const tech = () => {
           My Tech Stack
         </h2>
         <p className="text-base font-medium text-black">
-          List of technologies that I'm working with.
+          List of technologies that Im working with.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-5 gap-2 mt-10 lgl:px-10">
