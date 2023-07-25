@@ -1,5 +1,6 @@
 import React, { FormEvent, useState } from "react";
 import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -70,7 +71,11 @@ const Contact: React.FC = () => {
         onSubmit={handleSubmit}
         className="w-full mx-auto flex flex-col items-center"
       >
-        <div className="p-2 w-1/2 flex flex-col items-center">
+        <div className="">
+          <h2 className="font-titleFont text-3xl font-semibold text-textGreen flex flex-col items-center">Contact Me</h2>
+          <p className="text-base font-medium text-black">Feel free to reach out anytime!</p>
+        </div>
+        <div className="p-2 md:w-1/2 w-full flex flex-col items-center">
           <div className="relative">
             {isLoading && <p>Loading...</p>}
             {successMessage && (
@@ -119,7 +124,7 @@ const Contact: React.FC = () => {
                 </span>
               </div>
             )}
-            <label htmlFor="name" className="leading-7 text-sm text-white-600">
+            <label htmlFor="name" className="leading-7 text-black text-sm">
               Name
             </label>
             <input
@@ -129,7 +134,7 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-            <label htmlFor="email" className="leading-7 text-sm text-white-600">
+            <label htmlFor="email" className="leading-7 text-sm text-black">
               Email
             </label>
             <input
@@ -139,15 +144,19 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div>
+          
+          <label className="leading-7 text-sm text-left text-black">
+              Message
+            </label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full mt-5 resize-none bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full resize-none bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             cols={30}
             rows={7}
           ></textarea>
+          </div>
           <button
             type="submit"
             className="w-36 mt-5 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
@@ -156,6 +165,27 @@ const Contact: React.FC = () => {
           </button>
         </div>
       </form>
+      <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+        <a href="mailto:jeffersongarcia520@gmail.com" className="text-indigo-500">Jeffersongarcia520@gmail.com</a>
+        <p className="leading-normal my-5 text-black">Dinas, Zamboanga Del Sur</p>
+        <span className="inline-flex gap-2 text-black">
+          <a href="https://www.facebook.com/m.Zenith.me" target="_blank">
+            <FaFacebook />
+          </a>
+          <a href="https://www.instagram.com/echiboijepp/" target="_blank">
+            <FaInstagram />
+          </a>
+          <a href="https://github.com/Jeffgarcia09" target="_blank">
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jefferson-garcia-68a588250/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
+        </span>
+      </div>
     </section>
   );
 };

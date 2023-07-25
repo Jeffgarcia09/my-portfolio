@@ -4,6 +4,11 @@
 
 
 body {
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 19%, rgba(59,139,246,1) 61%);
+  background: #E1E5EA;
+}
+
+
+.active{
+  color: #000000;
+  font: bold;
 }

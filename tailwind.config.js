@@ -36,12 +36,14 @@ module.exports = {
       },
       colors:{
         bodyColor: "#0A192F",
-        textGreen: "#64ffda",
+        textGreen: "#194EB4",
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }

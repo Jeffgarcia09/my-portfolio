@@ -17,8 +17,9 @@ const Experience = () => {
     setExpGoogle(true);
   };
   return (
-    <section className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4">
-      <SectionTitle title="Experience" titleNo="02." />
+    <section
+    id="experience" className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4">
+      <SectionTitle title="Experience"/>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li

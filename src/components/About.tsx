@@ -11,75 +11,15 @@ const About = () => {
         id="about"
         className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
       >
-        <SectionTitle title="About Me" titleNo="01." />
+        <SectionTitle title="About Me" />
         <div className="flex flex-col lgl:flex-row gap-16">
-          <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-            <p>
+          <div className="w-full text-base text-black font-medium flex flex-col gap-4">
+            <p className="indent-8 text-justify">
               I recently graduated from MSU-IIT with a degree of BS Computer
               Application major in Internet of Things. I completed several projects that showcased my ability,
               This project strengthened my collaboration skills and deepened my
-              knowledge of the entire web development process.
+              knowledge of the entire web development process. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque necessitatibus libero iusto rerum, sapiente et pariatur nemo quos, rem nisi voluptas. Debitis voluptatem neque hic perferendis voluptatibus repudiandae sit?
             </p>
-            <p>
-            List of technologies that I have working with recently:
-            </p>
-            <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                Laravel
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                HTML & CSS
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                Next.js
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                React{" "}
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                TypeScript
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                Tailwindcss
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                Styled-Components
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                WordPress
-              </li>
-            </ul>
-          </div>
-          <div className=" lgl:border-r-8 border-b-4 border-textGreen hover:-translate-x-2 hover:-translate-y-2 transition-transform duration-300 grid place-content-end lgl:w-[500px]">
-            <Image
-              src={Pic}
-              className="ml-32 w-full h-auto object-cover "
-              alt="image"
-            />
           </div>
         </div>
       </section>

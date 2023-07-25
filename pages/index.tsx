@@ -10,6 +10,9 @@ import Experience from "@/src/components/Experience";
 import Projects from "@/src/components/Projects";
 import Cards from "@/src/components/Cards";
 import Contact from "../src/components/Contact";
+import Footer from "@/src/components/footer";
+import Tech from "@/src/components/tech";
+
 
 const Home = () => {
   return (
@@ -20,34 +23,18 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={LogoIcon.src} />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+      <main className="w-full h-screen font-bodyFont bg-[#E1E5EA] text-textLight overflow-x-hidden overflow-y-scroll scrollbar-track-transparent scrollbar-thumb-textDark scrollbar scrollbar-rounded-[12px]">
         <Navbar />
-        <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
-          >
-            <Leftside />
-          </motion.div>
           <div className="h-[88vh] w-full mx-auto p-4">
             <Middle/>
             <About />
-            <Experience/>
+            <Tech/>
+            {/* <Experience/> */}
             <Projects/>
             <Cards/>
             <Contact/>
-          </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
-          >
-            <RightSide />
-          </motion.div>
-        </div>
+            <Footer/>
+          </div>         
       </main>
     </>
   );
