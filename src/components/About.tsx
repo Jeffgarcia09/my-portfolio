@@ -17,7 +17,7 @@ const About = () => {
             <p className="indent-8 text-justify">
               Allow me to introduce myself as Jefferson Marchan Garcia, a
               23-year-old graduate from Mindanao State University – Iligan
-              Institute of Technology with a Bachelor's degree in Computer
+              Institute of Technology with a Bachelor&#39;s degree in Computer
               Application, specializing in Internet of Things. My passion for
               design has inspired me to pursue a career as a frontend web
               developer.
@@ -52,7 +52,7 @@ const About = () => {
                   Let's Connect:
                 </h3>
                 <p className="indent-8 text-justify">
-                  I'm always eager to expand my network and collaborate on
+                  I&#39;m always eager to expand my network and collaborate on
                   exciting projects. Whether you&#39;re looking for a frontend web
                   developer to join your team or have a project in mind, I&#39;d
                   love to hear from you! Let&#39;s connect and create something
