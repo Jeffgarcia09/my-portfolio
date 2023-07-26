@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import Pic from "@/src/assets/img.png";
 import SectionTitle from "./SectionTitle";
-import { AiFillThunderbolt } from "react-icons/ai";
+
 
 const About = () => {
   const [showMore, setShowMore] = useState(false);
@@ -45,7 +43,7 @@ const About = () => {
                   combine my passion for technology and design. I find great
                   satisfaction in turning complex problems into elegant
                   solutions that not only meet but exceed expectations.
-                  Witnessing users interact with something I've built and
+                  Witnessing users interact with something I&#39;ve built and
                   knowing that it positively impacts their lives motivates me to
                   continuously improve and stay updated with the latest industry
                   trends.
@@ -55,9 +53,9 @@ const About = () => {
                 </h3>
                 <p className="indent-8 text-justify">
                   I'm always eager to expand my network and collaborate on
-                  exciting projects. Whether you're looking for a frontend web
-                  developer to join your team or have a project in mind, I'd
-                  love to hear from you! Let's connect and create something
+                  exciting projects. Whether you&#39;re looking for a frontend web
+                  developer to join your team or have a project in mind, I&#39;d
+                  love to hear from you! Let&#39;s connect and create something
                   amazing together.
                 </p>
               </>
