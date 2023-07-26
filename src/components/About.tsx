@@ -49,7 +49,7 @@ const About = () => {
                   trends.
                 </p>
                 <h3 className="font-titleFont text-[#000] text-xl flex items-center">
-                  Let's Connect:
+                  Let&#39;s Connect:
                 </h3>
                 <p className="indent-8 text-justify">
                   I&#39;m always eager to expand my network and collaborate on
