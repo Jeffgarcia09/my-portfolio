@@ -93,7 +93,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href=""
+            href="https://github.com/Jeffgarcia09/MoneyCache-System"
             target="_blank"
           >
             <div>
@@ -134,7 +134,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen text-black duration-300"
-                href="https://github.com/Jeffgarcia09/Fisherly-E-commerce-Website"
+                href="https://github.com/Jeffgarcia09/MoneyCache-System"
                 target="_blank"
               >
                 <TbBrandGithub />
