@@ -23,7 +23,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={LogoIcon.src} />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-[#E1E5EA] text-textLight">
+      <main className="w-full h-screen font-bodyFont overflow-x-hidden overflow-y-scroll bg-[#E1E5EA] text-textLight">
         <Navbar />
           <div className="h-[88vh] w-full mx-auto p-4">
             <Middle/>

@@ -44,10 +44,7 @@ const Projects = () => {
                 </h3>
               </div>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus, magnam soluta quod laudantium placeat repellat in
-                praesentium, nobis dicta repellendus assumenda quae ab. Illo in
-                quae reiciendis est enim cupiditate?
+              An innovative e-commerce website dedicated to selling fresh fish and delivering it right to your doorstep. This platform aims to make fish purchasing more convenient for the vibrant community of Iligan City, eliminating the need to visit crowded markets during pandemic.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-black">
                 <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
@@ -111,11 +108,9 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl text-textGreen font-bold">MoneyCache System</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Possimus, magnam soluta quod laudantium placeat repellat in
-              praesentium, nobis dicta repellendus assumenda quae ab. Illo in
-              quae reiciendis est enim cupiditate?
+            <p className="bg-[#112240] text-left text-sm md:text-base p-2 md:p-6 xl:-mr-16 rounded-md">
+            During my OJT 
+            <a className="text-[#c4ff3c]"> @LogicBase Interactive Ent.</a>, we developed a cutting-edge Customer Relation Management System. Throughout this invaluable experience, had the opportunity to hone my skills, especially in utilizing modern frameworks like React, and further refined my expertise in styling.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
