@@ -52,13 +52,13 @@ const tech = () => {
         <div className="w-full h-70 rounded-lg bg-[#ffffff] hover:bg-[#112240] p-7 mt-2 flex items-center flex-col justify-center gap-6 group">
           <div className="transform transition-transform group-hover:-translate-y-5">
             <Image
-              className="w-32 h-32 flex flex-col items-center object-cover"
+              className="lgl:w-32 lgl:h-32 sm:w-28 sm:h-28 flex flex-col items-center object-cover"
               src={VS}
               alt="vscode logo"
             />
           </div>
 
-          <ul className="text-4xl md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
+          <ul className="text-4xl sm:text-[32px] md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
             <li className="list-none group-hover:text-white">VSCode</li>
           </ul>
           <p className="text-1xl font-bodyFont group-hover:text-white text-textDark">
@@ -69,13 +69,13 @@ const tech = () => {
         <div className="w-full h-70 rounded-lg bg-[#ffffff] hover:bg-[#112240] p-7 mt-2 flex items-center flex-col justify-center gap-6 group">
           <div className="transform transition-transform group-hover:-translate-y-5">
             <Image
-              className="w-32 h-32 flex flex-col items-center object-cover"
+              className="lgl:w-32 lgl:h-32 sm:w-28 sm:h-auto flex flex-col items-center object-cover"
               src={HTML}
               alt="vscode logo"
             />
           </div>
 
-          <ul className="text-4xl md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
+          <ul className="text-4xl sm:text-[32px] md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
             <li className="list-none group-hover:text-white">HTML</li>
           </ul>
           <p className="text-1xl font-bodyFont group-hover:text-white text-textDark">
@@ -86,7 +86,7 @@ const tech = () => {
         <div className="w-full h-70 rounded-lg bg-[#ffffff] hover:bg-[#112240] p-7 mt-2 flex items-center flex-col justify-center gap-6 group">
           <div className="transform transition-transform group-hover:-translate-y-5">
             <Image
-              className="w-[107px] h-auto flex flex-col items-center object-cover"
+              className="lgl:w-[107px] lgl:h-auto sm:w-28 sm:h-32 flex flex-col items-center object-cover"
               src={CSS}
               alt="vscode logo"
             />
@@ -96,7 +96,7 @@ const tech = () => {
             <li className="list-none group-hover:text-white">CSS</li>
           </ul>
           <p className="text-1xl font-bodyFont group-hover:text-white text-textDark">
-            Visual Appearance
+            Styling
           </p>
         </div>
 
@@ -109,11 +109,11 @@ const tech = () => {
             />
           </div>
 
-          <ul className="text-4xl md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
-            <li className="list-none group-hover:text-white">Node JS</li>
+          <ul className="text-4xl sm:text-[32px] md:text-2xl font-bold text-black flex items-center gap-2 justify-between flex-wrap">
+            <li className="list-none group-hover:text-white">NodeJS</li>
           </ul>
           <p className="text-1xl font-bodyFont group-hover:text-white text-textDark">
-            Server Environment
+            Backend
           </p>
         </div>
       </div>

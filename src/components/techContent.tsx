@@ -14,7 +14,7 @@ const TechContent = ({ title, imageSrc, desc }: Props) => {
     <div className="w-full h-70 rounded-lg hover:bg-[#112240] bg-[#ffffff] p-7 mt-2 flex items-center flex-col justify-center gap-6 group">
       <div className="transform transition-transform group-hover:-translate-y-5">
         <Image
-          className="w-32 h-32 flex flex-col items-center border-[.5px] rounded-full object-cover"
+          className="lgl:w-32 lgl:h-32 sm:w-28 sm:h-28 flex flex-col items-center border-[.5px] rounded-full object-cover"
           src={image.default}
           alt="IoT Projects"
         />
