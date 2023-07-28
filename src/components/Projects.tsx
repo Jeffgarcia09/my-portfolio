@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import Fisherly from "@/src/assets/fish.png";
 import Money from "@/src/assets/monetcache.png";
+import Folio from "@/src/assets/folio.png";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -148,6 +149,71 @@ const Projects = () => {
               >
                 <RxOpenInNewWindow />
               </a>
+            </div>
+          </div>
+        </div>
+        {/*3rd Project*/}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href=""
+              target="_blank"
+            >
+              <div>
+                <Image
+                  className="w-full h-full rounded-md object-contain"
+                  src={Folio}
+                  alt="Fisherly"
+                />
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <div>
+                <p className="font-titleFont text-black text-sm tracking-wide">
+                  Featured Project
+                </p>
+                <h3 className="text-2xl text-[#194EB4] font-bold">
+                  My Personal Portfolio
+                </h3>
+              </div>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              Welcome to my personal website portfolio, where I am thrilled to showcase a collection of my most remarkable projects and invaluable experiences. As you explore this platform, you'll gain insights into my journey as a passionate individual, delving into the realms of creativity and innovation.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-black">
+                <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
+                  Next JS
+                </li>
+                <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
+                  TailwindCSS
+                </li>
+                <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
+                  EmailJS
+                </li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-textGreen text-black duration-300"
+                  href="https://github.com/Jeffgarcia09/Fisherly-E-commerce-Website"
+                  target="_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  className="hover:text-textGreen text-black duration-300"
+                  href="/"
+                  target="_blank"
+                >
+                  <AiOutlineYoutube />
+                </a>
+                <a
+                  className="hover:text-textGreen text-black duration-300"
+                  href="https://drive.google.com/file/d/1tt51PMtJ6gvhuUvkfQZZApqHYTitVvZ5/view?usp=sharing"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
             </div>
           </div>
         </div>
