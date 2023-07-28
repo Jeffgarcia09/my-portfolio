@@ -178,7 +178,7 @@ const Projects = () => {
                 </h3>
               </div>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              Welcome to my personal website portfolio, where I am thrilled to showcase a collection of my most remarkable projects and invaluable experiences. As you explore this platform, you'll gain insights into my journey as a passionate individual, delving into the realms of creativity and innovation.
+              Welcome to my personal website portfolio, where I am thrilled to showcase a collection of my most remarkable projects and invaluable experiences. As you explore this platform, you&#39;ll gain insights into my journey as a passionate individual, delving into the realms of creativity and innovation.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-black">
                 <li className="flex items-center gap-1 font-medium text-black hover:text-textGreen cursor-pointer duration-300">
